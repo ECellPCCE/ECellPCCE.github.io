@@ -12,5 +12,6 @@ $(document).ready(function(){
     // $("#events-badge").removeClass("scale-in");
     // $("#events-badge").addClass("scale-out");
     $("#events-badge").remove();
+    $("#events-badge-mobile").remove();
   }
 });
