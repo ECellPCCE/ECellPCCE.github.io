@@ -16,3 +16,10 @@
   background-color: #0D2F5C;
   color: #FFFFFF;
 }
+.bold {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.rules {
+  font-size: 1.1rem;
+}
