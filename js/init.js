@@ -9,6 +9,8 @@
 
 $(document).ready(function(){
   if(Cookies.get('visitedEvents') == '1') {
-    $(".new").remove();
+    $("#events-badge").removeClass("scale-in");
+    $("#events-badge").addClass("scale-out");
+    $("#events-badge").delay(5000).remove();
   }
 });
